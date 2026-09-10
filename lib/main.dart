@@ -104,6 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            const Icon(Icons.thumb_up, size: 24),
+            const SizedBox(height: 8),
             const Text('Skylar pushed the button this many times:',
               style: TextStyle(
                 fontSize: 34.0, // Adjust this number to make it bigger
